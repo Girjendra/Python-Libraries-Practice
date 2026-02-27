@@ -1,0 +1,37 @@
+[
+    {
+        "ID":1,
+        "Name":"Aditi",
+        "Age":18,
+        "Subject":"Math",
+        "Marks":89
+    },
+    {
+        "ID": null,
+        "Name":"Rahul",
+        "Age":19,
+        "Subject":"Science",
+        "Marks":76
+    },
+    {
+        "ID":3,
+        "Name":"Priya",
+        "Age":18,
+        "Subject":"English",
+        "Marks":92
+    },
+    {
+        "ID":4,
+        "Name":"Karan",
+        "Age":20,
+        "Subject":"Math",
+        "Marks":67
+    },
+    {
+        "ID":5,
+        "Name":"Neha",
+        "Age":19,
+        "Subject":"History",
+        "Marks":81
+    }
+]
