@@ -18,7 +18,7 @@ print(s['B'])   # Output: 20
 #  access by position
 print(s.iloc[2])   # Output: 20
 
-#  access by label
+#  access by label(iloc works only with custom index)
 print(s.loc['A'])   # Output: 20
 
 # aggregation functions

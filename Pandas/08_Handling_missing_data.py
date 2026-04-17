@@ -9,7 +9,7 @@ NaT → Not a Time (for datetime)
 data = {
     'Name': ['Aarav', 'Priya', None,'boss'],
     'Age': [18, None, 20, None],
-    'Marks': [None, 90, 78,90]
+    'Marks': [56, 90, 78,90]
 }
 
 df = pd.DataFrame(data)
@@ -30,8 +30,8 @@ Marks    1
 dtype: int64
 """
 
-# print(df.dropna(axis=0, inplace=False))  # drop column having missing values
-# print(df.dropna(axis=1))  # drop row having missing values
+# print(df.dropna(axis=0, inplace=False))  # dropr rows having missing values
+# print(df.dropna(axis=1))  # drop columns having missing values
 # df.dropna(how="all")  # Drop only if ALL values are missing
 
 # df.fillna(900, inplace=True) # fill all missing values with a singl value

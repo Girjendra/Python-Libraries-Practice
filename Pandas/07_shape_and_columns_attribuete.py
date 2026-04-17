@@ -6,7 +6,7 @@ df = pd.read_csv("students_data.csv")
 print(df.shape)
 print(df.columns)
 
-print(df.index)
+# print(df.index)
 print(df.dtypes)
 
 """

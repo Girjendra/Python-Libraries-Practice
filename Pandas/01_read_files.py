@@ -18,8 +18,10 @@ data = {
     'number_of_courses': [5, 3, 4]
 }
 
-df = pd.DataFrame(data, index=[4,3,6], columns=['Age', 'City'])
-# print(df)
+# df = pd.DataFrame(data, columns=['Age', 'City'])
+# df = pd.DataFrame(data, index=[4,3,6], )
+df = pd.DataFrame(data, index=[4,3,6], columns=['Age', 'Name', 'City'])
+print(df)
 
 # Saving DataFrames to different file formats
 # Format : .to_csv(filename, index=Boolean)

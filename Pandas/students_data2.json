@@ -1,1 +1,1 @@
-{"columns":["Age","City"],"index":[4,3,6],"data":[[24,"New York"],[27,"Los Angeles"],[22,"Chicago"]]}
+{"columns":["Age","Name","City"],"index":[4,3,6],"data":[[24,"Alice","New York"],[27,"Bob","Los Angeles"],[22,"Charlie","Chicago"]]}

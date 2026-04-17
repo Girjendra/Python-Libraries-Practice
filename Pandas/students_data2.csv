@@ -1,4 +1,4 @@
-Age,City
-24,New York
-27,Los Angeles
-22,Chicago
+Age,Name,City
+24,Alice,New York
+27,Bob,Los Angeles
+22,Charlie,Chicago

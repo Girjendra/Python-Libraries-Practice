@@ -7,9 +7,9 @@ arr2 = np.array([[1, 2], [3, 4]])
 
 1.3 Range of values
 arr = np.arange(start, stop, step, dtype=None)
-arr = np.reshape(a, newshape, order='C')
+arr = np.reshape(a, newshape)
 arr = arr.reshape(2, 10)
-arr = np.linspace(start, stop, num=50, ....)
+arr = np.linspace(start, stop, num=50)
 arr = np.resize(a, new_shape) -> repeats or truncates elements if size is mismatched
 1D arr = np.arange(1, 10, 2)
 2D arr.reshape(2, 3)

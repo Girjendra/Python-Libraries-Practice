@@ -28,6 +28,7 @@ df = pd.DataFrame(data)
 
 # print("\nRow by label/index value (loc=1):")      # df.loc[row_label, column_label]
 # print(df.loc[1])                                  # Row by Label-based indexing -> second row as Series
+# print(df.loc[1,'Marks'])                                  # Row by Label-based indexing -> second row as Series
 # Output:
 # Name     Priya
 # Age         19
@@ -35,6 +36,7 @@ df = pd.DataFrame(data)
 # Name: 1, dtype: object
 
 # print("\nRow by integer position (iloc=0):")  # df.iloc[row_position, column_position]
+# print(df.iloc[0, 0])                             # Row by Integer-position based indexing (0-based) -> first row as Series
 # print(df.iloc[0])                             # Row by Integer-position based indexing (0-based) -> first row as Series
 # Output:
 # Name    Aarav
@@ -59,8 +61,8 @@ df = pd.DataFrame(data)
 # print(df.loc[0, 'Age'])
 # print(df.iloc[0, 1])
 
-# print(df.loc[0:1, ['Age', 'Marks']])   # Both start and end are inclusive
-# print(df.iloc[0:2,1:3])  #Slicing is start inclusive, end exclusive
+print(df.loc[0:1, ['Age', 'Marks']])   # Both start and end are inclusive
+print(df.iloc[0:2,1:3])  #in Slicing start is inclusive, end exclusive
 
 # deleting a column
 # df.drop('Age', axis=1, inplace=True)
